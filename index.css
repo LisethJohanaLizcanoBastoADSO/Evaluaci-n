@@ -1,0 +1,198 @@
+:root {
+  --primary: rgb(34 38 68);
+  --bg-white: rgb(245, 245, 245);
+  --bg-gray: rgb(224, 224, 224);
+  --bg-primary: var(--primary);
+  --bg-hover: rgba(64, 64, 64, 0.06);
+  --color-primary: var(--primary);
+  --color-gray: rgb(64, 64, 64);
+  --white: #fff;
+  --card-border: rgba(23, 23, 23, 0.06);
+  --box-shadow: rgba(0, 0, 0, 0.1);
+  --text-boder: rgb(212, 212, 212);
+  --link-border: rgb(44, 44, 46);
+  --link-border-primary: var(--primary);
+  --header-height: 60px;
+  --padding-layout: 70px;
+  --max-width: 1024px;
+  --color--letra: white;
+
+  --size-05: 0.5rem;
+  --size-08: 0.8rem;
+  --size-09: 0.9rem;
+  --size-1: 1rem;
+  --size-1-4: 1.4rem;
+  --size-1-5: 1.5rem;
+  --size-2: 2rem;
+
+  --radius: 0.4rem;
+  --radius-large: 0.7rem;
+  --radius-xl: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-open-sans);
+  height: 100%;
+}
+
+body {
+  font-size: var(--size-1);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.header_vinculos .titulo_vinculos {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(55, 55, 55, 255);
+  box-shadow: 0 1px 1px var(--box-shadow);
+  z-index: 10;
+  width: 885px;
+  height: 186px;
+  border-radius: 0px 0px 70px 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__container {
+  max-width: var(--max-width);
+  padding: 0 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: var(--header-height);
+}
+
+.titulo_vinculos {
+  color: #fff;
+}
+
+.li_vinculos {
+  display: flex;
+  list-style-type: none;
+  float: left;
+  margin: 30px;
+}
+
+.vinculos {
+  text-decoration: none;
+  color: #fff;
+  transition: border-bottom 0.1s;
+}
+
+.vinculos:hover {
+  border-bottom: 1px solid var(--color--letra);
+}
+
+.btn {
+  background: rgba(197, 143, 116, 255);
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  border-radius: 2rem;
+  height: 300px;
+  width: 500px;
+}
+
+.btn:hover {
+  color: rgb(34 38 68);
+  background: white;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border: solid;
+}
+
+.header__search {
+  background-color: #ffffff;
+}
+
+.header__input {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.search__btn {
+  border: none;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0px 9px 9px 0px;
+}
+
+/* Primera parte*/
+
+.parteuno {
+  background-color: red;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.text_primer {
+  font-weight: normal;
+}
+
+.partedos {
+  background-color: rgb(66, 190, 117);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.partetres {
+  background-color: rgb(0, 59, 93);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.partecuatro {
+  background-color: rgb(255, 213, 0);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.partecinco {
+  background-color: rgb(217, 0, 255);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.parteseis {
+  background-color: rgb(235, 191, 255);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.partesiete {
+  background-color: rgb(0, 255, 38);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+.parteocho {
+  background-color: rgb(255, 0, 157);
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
